@@ -73,7 +73,7 @@ def generate_skin_data(num_examples):
     return df
 
 # Generate a dataset with a thousand examples
-dataset = generate_skin_data(1000)
+dataset = generate_skin_data(10000)
 
 # Save the dataset to a CSV file
 dataset.to_csv("skin_dataset.csv"),
